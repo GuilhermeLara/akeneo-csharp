@@ -1,8 +1,8 @@
-﻿namespace Akeneo.Model.Attributes
+﻿namespace Akeneo.Model.ReferenceEntityAttributes
 {
-    public class TextAttribute : TypedAttributeBase
+	public class IdentifierAttribute : TypedAttributeBase
 	{
-		public override string Type => AttributeType.Text;
+		public override string Type => AttributeType.Identifier;
 
 		/// <summary>
 		/// Number maximum of characters allowed for the value of the attribute when the attribute type is `pim_catalog_text`, `pim_catalog_textarea` or `pim_catalog_identifier`
@@ -18,7 +18,5 @@
 		/// Regexp expression used to validate any attribute value when the attribute type is `pim_catalog_text` or `pim_catalog_identifier`
 		/// </summary>
 		public string ValidationRegexp { get; set; }
-
-		
 	}
 }

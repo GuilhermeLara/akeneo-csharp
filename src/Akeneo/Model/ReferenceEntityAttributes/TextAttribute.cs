@@ -1,6 +1,6 @@
-﻿namespace Akeneo.Model.Attributes
+﻿namespace Akeneo.Model.ReferenceEntityAttributes
 {
-    public class TextAttribute : TypedAttributeBase
+	public class TextAttribute : TypedAttributeBase
 	{
 		public override string Type => AttributeType.Text;
 

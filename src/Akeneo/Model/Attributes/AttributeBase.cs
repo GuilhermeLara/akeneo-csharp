@@ -2,7 +2,7 @@
 
 namespace Akeneo.Model.Attributes
 {
-	public abstract class AttributeBase : ModelBase
+    public abstract class AttributeBase : ModelBase
 	{
 		/// <summary>
 		/// Attribute code
